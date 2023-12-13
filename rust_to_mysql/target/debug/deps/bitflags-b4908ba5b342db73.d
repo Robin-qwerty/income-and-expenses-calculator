@@ -1,0 +1,13 @@
+/var/www/rust/income-and-expenses-calculator/rust_to_mysql/target/debug/deps/bitflags-b4908ba5b342db73.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/parser.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/traits.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/public.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/internal.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/external.rs
+
+/var/www/rust/income-and-expenses-calculator/rust_to_mysql/target/debug/deps/libbitflags-b4908ba5b342db73.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/parser.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/traits.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/public.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/internal.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/external.rs
+
+/var/www/rust/income-and-expenses-calculator/rust_to_mysql/target/debug/deps/bitflags-b4908ba5b342db73.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/iter.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/parser.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/traits.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/public.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/internal.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/external.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/iter.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/parser.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/traits.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/public.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/internal.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-2.4.0/src/external.rs:
