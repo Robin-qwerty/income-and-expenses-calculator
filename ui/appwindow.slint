@@ -1,11 +1,24 @@
 import { Button, VerticalBox , LineEdit} from "std-widgets.slint";
 
+component Settings {
+    Text {
+        text: "SETTINGS";
+        horizontal-alignment: center;
+        font-weight: 900;
+        font-size: 20px;
+        // color: green;
+    }
+}
+
 export component AppWindow inherits Window {
 
     in property <string> results: "";
+    in-out property <bool> opencurtain;
     callback divide-income(string);
 
-    // background: #313e50;
+    Settings {}
+    
+    // background: #14213d;
     GridLayout {
         padding: 50px;
         spacing: 10px;
@@ -39,9 +52,12 @@ export component AppWindow inherits Window {
             }
         }
         Row {
-            Button {
+            b1 := Button {
                 text: "Bereken";
-                clicked => {divide-income(income.text)}
+                clicked => {
+                    root.opencurtain = !root.opencurtain;
+                    divide-income(income.text)
+                }
                 primary: true;
                 width: 150px;
                 height: 40px;
@@ -49,9 +65,9 @@ export component AppWindow inherits Window {
             }
         }
         Row {
-            Button {
+            b2 := Button {
                 text: "Settings";
-                clicked => { self.text = "Clicked"; }
+                // clicked => { Settings }
                 primary: true;
                 width:80px;
                 height: 30px;
@@ -67,6 +83,31 @@ export component AppWindow inherits Window {
                         font-size: 16px;
                         font-weight: 500;
                         text: root.results;
+                    }
+
+                    // L
+                    Rectangle {
+                        // background: #333333;
+                        x: 0;
+                        width: opencurtain ? 0px : parent.width / 2;
+                        height: parent.height;
+                        animate width {
+                            duration: 250ms; easing: ease-in;
+                        }
+                    }
+
+                    // R
+                    Rectangle {
+                        // background: #333333;
+                        x: opencurtain ? parent.width : parent.width /2;
+                        width: opencurtain ? 0px : parent.width / 2;
+                        height: parent.height;
+                        animate width {
+                            duration: 250ms; easing: ease-in;
+                        }
+                        animate x {
+                            duration: 250ms; easing: ease-in;
+                        }
                     }
                 }
             }

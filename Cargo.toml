@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Robin"]
 edition = "2021"
 build = "build.rs"
+description = "A dekstop app that calculats your income and expenses"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,4 +16,4 @@ slint-build = "1.0"
 
 [package.metadata.bundle]
 name = "Income and expenses calculator"
-identifier
+identifier = "io.github.Robin-qwerty.income-and-expenses-calculator"
