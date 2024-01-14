@@ -1,0 +1,18 @@
+[package]
+name = "income-and-expenses-calculator"
+version = "0.1.0"
+authors = ["Robin"]
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "Income and expenses calculator"
+identifier

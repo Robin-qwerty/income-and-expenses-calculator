@@ -1,0 +1,81 @@
+import { Button, VerticalBox , LineEdit} from "std-widgets.slint";
+
+export component AppWindow inherits Window {
+
+    in property <string> results: "";
+    callback divide-income(string);
+
+    // background: #313e50;
+    GridLayout {
+        padding: 50px;
+        spacing: 10px;
+        Row {
+            Text {
+                text: "income and expenses calculator";
+                horizontal-alignment: center;
+                font-weight: 900;
+                font-size: 20px;
+                // color: green;
+            }
+        }
+        Row {
+            income := LineEdit {
+                placeholder-text: "Inkomen (loon)";
+                horizontal-alignment: center;
+                font-size: 16px;
+                width: 200px;
+                height: 35px;
+                input-type: number;
+            }
+        }
+        Row {
+            LineEdit {
+                placeholder-text: "Ander inkomen";
+                horizontal-alignment: center;
+                font-size: 16px;
+                width: 200px;
+                height: 35px;
+                input-type: number;
+            }
+        }
+        Row {
+            Button {
+                text: "Bereken";
+                clicked => {divide-income(income.text)}
+                primary: true;
+                width: 150px;
+                height: 40px;
+                
+            }
+        }
+        Row {
+            Button {
+                text: "Settings";
+                clicked => { self.text = "Clicked"; }
+                primary: true;
+                width:80px;
+                height: 30px;
+            }
+        }
+        Row {
+            VerticalBox {
+                Rectangle {
+                    height: 100px;
+                    background: #f2f2f2;
+                    Text {
+                        color: black;
+                        font-size: 16px;
+                        font-weight: 500;
+                        text: root.results;
+                    }
+                }
+            }
+        }
+    }
+
+
+    // function switchToSecondUI() {
+    //     // Code to switch to the second UI file
+    //     include("second_ui.slint");
+    // }
+}

@@ -1,0 +1,11 @@
+
+import { GroupBox , CheckBox} from "std-widgets.slint";
+export component AppSettings inherits Window {
+    GroupBox {
+        title: "Groceries";
+        VerticalLayout {
+            CheckBox { text: "Bread"; checked: true ;}
+            CheckBox { text: "Fruits"; }
+        }
+    }
+}
